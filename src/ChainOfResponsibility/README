@@ -1,0 +1,8 @@
+Chain of Responsibilty is used when you would want to pass on the client request to subsequent downstream objects if
+request cannot be fullfilled by current object
+
+Application :
+ATM machine -> to fulfill notes required for a particular amount.
+Vending Machine ->
+Logging -> Error/Info/debug
+Caching -> C1 or C2 or c3
