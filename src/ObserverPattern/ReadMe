@@ -1,0 +1,11 @@
+We will use example of weather station where we will have Obersavable as weather station which will emit weather updates data
+and then we will have 2 observers -> Tv Display Observer
+                                  -> Mobile Display Observer
+
+
+IWSObservable {
+    add(DisplayOberser obj);
+    remove(DisplayOberser obj);
+    notify();
+    setTemp();
+}
