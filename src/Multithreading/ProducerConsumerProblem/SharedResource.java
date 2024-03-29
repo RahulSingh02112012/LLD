@@ -18,7 +18,6 @@ public class SharedResource {
             System.out.println("Queue is full, Producer is waiting");
             wait();
         }
-
         queue.add(item);
         System.out.println("Item produces: " + item);
         notify();
@@ -29,7 +28,6 @@ public class SharedResource {
             System.out.println("Consumer waiting for item to be produced");
             wait();
         }
-
         int item = queue.poll();
         System.out.println("Item consumed");
         notify();

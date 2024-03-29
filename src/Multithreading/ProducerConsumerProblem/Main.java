@@ -23,6 +23,7 @@ public class Main {
                 }
             }
         });
+       // System.out.println(Runtime.getRuntime().availableProcessors());
 
         producerThread.start();
         consumerThread.start();
