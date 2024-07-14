@@ -1,4 +1,4 @@
-import SingletonPattern.EnumSingleton;
+import LowLevelDesigns.SingletonPattern.EnumSingleton;
 
 public class Main {
     public static void main(String[] args) {
